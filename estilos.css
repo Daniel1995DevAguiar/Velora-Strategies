@@ -1,0 +1,873 @@
+/*INICIO ESTILOS GLOBAIS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+a {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+header,
+.banner,
+#servicos,
+.numeros,
+#sobre,
+#depoimentos,
+#clientes,
+#contato,
+iframe,
+footer {
+    width: 100%;
+}
+
+#servicos h2,
+#sobre h2,
+#contato h2 {
+    color: #9c3cfc;
+}
+
+/*FIM ESTILOS GLOBAIS*/
+
+/*INICIO SEÇÃO TOPO*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+header span {
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 0 5px;
+}
+
+header span:hover {
+    background-color: #9c3cfc;
+    color: white;
+}
+
+header .link-menu a {
+    color: gray;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+header .link-menu a:hover {
+    border-bottom: 2px solid #9c3cfc;
+}
+
+.botao-lilas a {
+    color: white;
+    background-color: #9c3cfc;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+.botao-lilas a:hover {
+    background-color: black;
+}
+
+/*FIM SEÇÃO TOPO*/
+
+/*INICIO SEÇÃO BANNER*/
+.banner {
+    height: 800px;
+    background-image: url("imagem-fundo-banner.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner article {
+    width: 50%;
+    height: 500px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.banner h1 {
+    font-size: 65px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+/*FIM SEÇÃO BANNER*/
+
+/*INICIO SEÇÃO SERVIÇOS*/
+#servicos {
+    margin: 120px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#servicos .destaque-paragrafo {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#servicos section {
+    display: flex;
+    text-align: center;
+}
+
+#servicos article {
+    width: 450px;
+}
+
+#servicos section div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#servicos p {
+    width: 300px;
+}
+
+/*FIM SEÇÃO SERVIÇOS*/
+
+/*INICIO SEÇÃO NÚMEROS*/
+.numeros {
+    background-color: #18143c;
+    height: auto;
+    /* Ajusta a altura automaticamente */
+    padding: 40px 0;
+    /* Adiciona padding superior e inferior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.numeros h3,
+.numeros p {
+    color: white;
+}
+
+.numeros h3 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    /* Adiciona espaço abaixo do título */
+}
+
+.numeros .destaque-numeros {
+    font-size: 68px;
+    margin: 0;
+    /* Remove margens extras */
+}
+
+.tabela {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+/*FIM SEÇÃO NÚMEROS*/
+
+/*INICIO SEÇÃO SOBRE*/
+#sobre {
+    display: flex;
+    height: 700px;
+}
+
+#sobre .conteudo-sobre {
+    width: 50%;
+}
+
+#sobre .imagem-fundo-sobre {
+    width: 50%;
+    background-image: url("imagem-fundo-sobre.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.conteudo-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.conteudo-sobre h2,
+h3 {
+    text-align: center;
+}
+
+.conteudo-sobre span {
+    font-weight: bold;
+    color: #9c3cfc;
+}
+
+/*FIM SEÇÃO SOBRE*/
+
+/*INICIO SEÇÃO DEPOIMENTOS*/
+#depoimentos {
+    background-color: #9c3cfc;
+    height: 550px;
+    color: white;
+}
+
+#depoimentos h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+#depoimentos article {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#depoimentos section {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+/*FIM SEÇÃO DEPOIMENTOS*/
+
+/*INICIO SEÇÃO CLIENTES SATISFEITOS*/
+#clientes {
+    height: 100%;
+    margin: 30px auto;
+}
+
+#clientes h2 {
+    text-align: center;
+}
+
+#clientes img {
+    width: 19%;
+    height: 200px;
+}
+
+#clientes figure {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#clientes figure img {
+    box-shadow: -5px 5px 8px 0 black;
+}
+
+/*FIM SEÇÃO CLIENTES SATISFEITOS*/
+
+/*INICIO SEÇÃO CONTATO*/
+#contato {
+    display: flex;
+    height: 500px;
+    border-top: 5px solid #18143c;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato nav {
+    background-color: #9c3cfc;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20%;
+}
+
+.contato a {
+    width: 10%;
+}
+
+.contato nav img {
+    width: 90%;
+}
+
+#contato article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#contato div {
+    display: flex;
+    flex-direction: column;
+}
+
+#contato div input {
+    padding: 20px;
+    margin-bottom: 5px;
+}
+
+#contato textarea {
+    height: 100px;
+}
+
+#contato button {
+    width: 20%;
+    margin: 10px auto;
+    color: white;
+    background-color: #9c3cfc;
+    padding: 10px 40px;
+    border-radius: 50px;
+}
+
+#contato button:hover {
+    background-color: black;
+}
+
+/*FIM SEÇÃO CONTATO*/
+
+/*INICIO SEÇÃO IFRAME*/
+iframe {
+    height: 300px;
+}
+
+/*FIM SEÇÃO IFRAME*/
+
+/*INICIO SEÇÃO FOOTER*/
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*FIM SEÇÃO FOOTER*/
+
+
+
+/*INICIO MEDIA QUERIES DISPOSITIVOS MOBILE ENTRE 320PX E 425PX*/
+@media (min-width: 320px) and (max-width: 425px) {
+
+    /*INICIO ESTILOS GLOBAIS*/
+    p,
+    a {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    /*FIM ESTILOS GLOBAIS*/
+
+    /*INICIO SEÇÃO TOPO*/
+    header {
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .link-menu {
+        text-align: center;
+    }
+
+    /*FIM SEÇÃO TOPO*/
+
+    /*INICIO SEÇÃO BANNER*/
+    .banner {
+        height: 900px;
+    }
+
+    .banner h1 {
+        font-size: 38px;
+    }
+
+    .banner article {
+        justify-content: space-around;
+        height: 800px;
+    }
+
+    /*FIM SEÇÃO BANNER*/
+
+    /*INICIO SEÇÃO SERVIÇOS*/
+    #servicos section {
+        flex-direction: column;
+    }
+
+    /*FIM SEÇÃO SERVIÇOS*/
+
+    /*INICIO SEÇÃO NÚMEROS*/
+    .numeros h3 {
+        font-size: 24px;
+    }
+
+    .numeros .destaque-numeros {
+        font-size: 34px;
+    }
+
+    .tabela {
+        flex-direction: column;
+    }
+
+    /*FIM SEÇÃO NÚMEROS*/
+
+    /*INICIO SEÇÃO SOBRE*/
+    #sobre {
+        display: flex;
+        flex-direction: column;
+        height: 900px;
+    }
+
+    #sobre h2 {
+        margin: 20px auto;
+    }
+
+    #sobre .conteudo-sobre {
+        width: 100%;
+    }
+
+    #sobre .imagem-fundo-sobre {
+        width: 100%;
+        background-image: url("imagem-fundo-sobre-mobile.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .conteudo-sobre {
+        text-align: center;
+    }
+
+    /*FIM SEÇÃO SOBRE*/
+
+    /*INICIO SEÇÃO DEPOIMENTOS*/
+
+    #depoimentos {
+        height: auto;
+    }
+
+    #depoimentos h2 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    #depoimentos article {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+
+    #depoimentos section {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    /*FIM SEÇÃO DEPOIMENTOS*/
+
+    /*INICIO SEÇÃO CLIENTES SATISFEITOS*/
+    #clientes {
+        height: 100%;
+        margin: 30px auto;
+    }
+
+    #clientes img {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    #clientes figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    /*FIM SEÇÃO CLIENTES SATISFEITOS*/
+
+    /*INICIO SEÇÃO CONTATO*/
+    #contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        border-top: 3px solid #18143c;
+    }
+
+    .contato {
+        text-align: center;
+    }
+
+    #contato h2 {
+        margin: 20px auto;
+    }
+
+    .contato nav {
+        background-color: #9c3cfc;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 20%;
+    }
+
+    .contato a {
+        width: 20%;
+    }
+
+    #contato article {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #contato button {
+        width: 80%;
+    }
+
+    /*FIM SEÇÃO CONTATO*/
+}
+
+/*FIM MEDIA QUERIES DISPOSITIVOS MOBILE ENTRE 320PX E 425PX*/
+
+/*INICIO MEDIA QUERIES DISPOSITIVOS TABLETS ENTRE 426PX ATÉ 768PX*/
+@media (min-width: 426px) and (max-width: 768px) {
+
+    /*INICIO ESTILOS GLOBAIS*/
+    p,
+    a {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    /*FIM ESTILOS GLOBAIS*/
+
+    /*INICIO SEÇÃO TOPO*/
+    header {
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .link-menu {
+        text-align: center;
+    }
+
+    /*FIM SEÇÃO TOPO*/
+
+    /*INICIO SEÇÃO BANNER*/
+    .banner {
+        height: 900px;
+    }
+
+    .banner h1 {
+        font-size: 48px;
+    }
+
+    .banner article {
+        justify-content: space-around;
+        height: 800px;
+    }
+
+    /*FIM SEÇÃO BANNER*/
+
+    /*INICIO SEÇÃO SERVIÇOS*/
+    #servicos section {
+        flex-direction: column;
+    }
+
+    /*FIM SEÇÃO SERVIÇOS*/
+
+    /*INICIO SEÇÃO NÚMEROS*/
+    .numeros h3 {
+        font-size: 28px;
+    }
+
+    .numeros .destaque-numeros {
+        font-size: 38px;
+    }
+
+    .tabela {
+        flex-direction: column;
+    }
+
+    /*FIM SEÇÃO NÚMEROS*/
+
+    /*INICIO SEÇÃO SOBRE*/
+    #sobre {
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    #sobre h2 {
+        margin: 20px auto;
+    }
+
+    #sobre .conteudo-sobre {
+        width: 100%;
+    }
+
+    #sobre .imagem-fundo-sobre {
+        width: 100%;
+        background-image: url("imagem-fundo-sobre-mobile.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .conteudo-sobre {
+        text-align: center;
+    }
+
+    /*FIM SEÇÃO SOBRE*/
+
+    /*INICIO SEÇÃO DEPOIMENTOS*/
+
+    #depoimentos {
+        height: auto;
+    }
+
+    #depoimentos h2 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    #depoimentos article {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+
+    #depoimentos section {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    /*FIM SEÇÃO DEPOIMENTOS*/
+
+    /*INICIO SEÇÃO CLIENTES SATISFEITOS*/
+    #clientes {
+        height: 100%;
+        margin: 30px auto;
+    }
+
+    #clientes img {
+        width: 90%;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    #clientes figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    /*FIM SEÇÃO CLIENTES SATISFEITOS*/
+
+    /*INICIO SEÇÃO CONTATO*/
+    #contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        border-top: 4px solid #18143c;
+    }
+
+    .contato {
+        text-align: center;
+    }
+
+    #contato h2 {
+        margin: 20px auto;
+    }
+
+    .contato nav {
+        background-color: #9c3cfc;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 20%;
+        margin: 10px auto;
+    }
+
+    .contato a {
+        width: 20%;
+    }
+
+    #contato article {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #contato button {
+        width: 80%;
+    }
+
+    /*FIM SEÇÃO CONTATO*/
+
+}
+
+/*FIM MEDIA QUERIES DISPOSITIVOS TABLETS ENTRE 426PX ATÉ 768PX*/
+
+/*MEDIA QUERIES SEÇÃO TOPO DISPOSITIVOS ENTRE 769PX E 913PX*/
+@media (min-width: 769px) and (max-width: 913px) {
+    /*INICIO SEÇÃO TOPO*/
+    header {
+        flex-direction: row;
+        height: 200px;
+    }
+
+    .link-menu, header span {
+        text-align: center;
+    }
+
+    header span {
+        display: flex;
+        align-items: center;
+    }
+
+    /*FIM SEÇÃO TOPO*/
+}
+/*FIM MEDIA QUERIES SEÇÃO TOPO DISPOSITIVOS ENTRE 769PX E 913PX*/
+
+/*INICIO MEDIA QUERIES SEÇÃO BANNER DISPOSITIVOS ENTRE 769PX ATÉ 1004PX */
+
+@media (min-width: 769px) and (max-width: 1019px) {
+    /*INICIO SEÇÃO BANNER*/
+.banner {
+    height: 900px;
+}
+
+.banner h1 {
+    font-size: 48px;
+}
+
+.banner article {
+    justify-content: space-around;
+    height: 600px;
+}
+
+/*FIM SEÇÃO BANNER*/
+}
+
+/*FIM MEDIA QUERIES SEÇÃO BANNER DISPOSITIVOS ENTRE 769PX ATÉ 1004PX */
+
+/*INICIO MEDIA QUERIES SEÇÃO SERVIÇOS DISPOSITIVOS ENTRE 769PX E 1183PX*/
+@media (min-width: 769px) and (max-width: 1183px) {
+    /*INICIO SEÇÃO SERVIÇOS*/
+    #servicos section {
+        flex-direction: column;
+    }
+
+    /*FIM SEÇÃO SERVIÇOS*/
+}
+/*FIM MEDIA QUERIES SEÇÃO SERVIÇOS DISPOSITIVOS ENTRE 769PX E 1183PX*/
+
+/*INICIO MEDIA QUERIES SEÇÃO NÚMEROS DISPOSITIVOS ENTRE 769PX E 925PX*/
+@media (min-width: 769px) and (max-width: 925px) {
+    .numeros h3 {
+        font-size: 28px;
+    }
+
+    .numeros .destaque-numeros {
+        font-size: 38px;
+    }
+
+    @media (min-width: 769px) and (max-width: 915px) {
+        .tabela {
+            flex-direction: column;
+        }
+    }
+
+    /*FIM SEÇÃO NÚMEROS*/
+}
+/*FIM MEDIA QUERIES SEÇÃO NÚMEROS DISPOSITIVOS ENTRE 769PX E 925PX*/
+
+/*INICIO MEDIA QUERIES SEÇÃO CONTATO DISPOSITIVOS ENTRE 769PX E 1154PX*/
+@media (min-width: 769px) and (max-width: 1154px) {
+    /*INICIO SEÇÃO CONTATO*/
+    #contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        border-top: 4px solid #18143c;
+    }
+
+    .contato {
+        text-align: center;
+    }
+
+    #contato h2 {
+        margin: 20px auto;
+    }
+
+    .contato nav {
+        background-color: #9c3cfc;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 20%;
+        margin: 10px auto;
+    }
+
+    .contato a {
+        width: 20%;
+    }
+
+    #contato button {
+        width: 40%;
+    }
+
+    /*FIM SEÇÃO CONTATO*/
+}
+/*FIM MEDIA QUERIES SEÇÃO CONTATO DISPOSITIVOS ENTRE 769PX E 1154PX*/
