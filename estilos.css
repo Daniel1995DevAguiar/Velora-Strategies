@@ -92,7 +92,7 @@ header .link-menu a:hover {
 /*INICIO SEÇÃO BANNER*/
 .banner {
     height: 800px;
-    background-image: url("imagem-fundo-banner.jpeg");
+    background-image: url("./imagens/imagem-fundo-banner.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -204,7 +204,7 @@ header .link-menu a:hover {
 
 #sobre .imagem-fundo-sobre {
     width: 50%;
-    background-image: url("imagem-fundo-sobre.png");
+    background-image: url("./imagens/imagem-fundo-banner.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -452,7 +452,7 @@ footer {
 
     #sobre .imagem-fundo-sobre {
         width: 100%;
-        background-image: url("imagem-fundo-sobre-mobile.png");
+        background-image: url("./imagens/imagem-fundo-sobre-mobile.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -645,7 +645,7 @@ footer {
 
     #sobre .imagem-fundo-sobre {
         width: 100%;
-        background-image: url("imagem-fundo-sobre-mobile.png");
+        background-image: url("./imagens/imagem-fundo-sobre-mobile.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
