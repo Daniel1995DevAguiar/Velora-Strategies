@@ -1,0 +1,114 @@
+/*MEDIA QUERIES SEÇÃO TOPO DISPOSITIVOS ENTRE 769PX E 913PX*/
+@media (min-width: 769px) and (max-width: 913px) {
+    /*INICIO SEÇÃO TOPO*/
+    header {
+        flex-direction: row;
+        height: 200px;
+    }
+
+    .link-menu, header span {
+        text-align: center;
+    }
+
+    header span {
+        display: flex;
+        align-items: center;
+    }
+
+    /*FIM SEÇÃO TOPO*/
+}
+/*FIM MEDIA QUERIES SEÇÃO TOPO DISPOSITIVOS ENTRE 769PX E 913PX*/
+
+/*INICIO MEDIA QUERIES SEÇÃO BANNER DISPOSITIVOS ENTRE 769PX ATÉ 1004PX */
+
+@media (min-width: 769px) and (max-width: 1019px) {
+    /*INICIO SEÇÃO BANNER*/
+.banner {
+    height: 900px;
+}
+
+.banner h1 {
+    font-size: 48px;
+}
+
+.banner article {
+    justify-content: space-around;
+    height: 600px;
+}
+
+/*FIM SEÇÃO BANNER*/
+}
+
+/*FIM MEDIA QUERIES SEÇÃO BANNER DISPOSITIVOS ENTRE 769PX ATÉ 1004PX */
+
+/*INICIO MEDIA QUERIES SEÇÃO SERVIÇOS DISPOSITIVOS ENTRE 769PX E 1183PX*/
+@media (min-width: 769px) and (max-width: 1183px) {
+    /*INICIO SEÇÃO SERVIÇOS*/
+    #servicos section {
+        flex-direction: column;
+    }
+
+    /*FIM SEÇÃO SERVIÇOS*/
+}
+/*FIM MEDIA QUERIES SEÇÃO SERVIÇOS DISPOSITIVOS ENTRE 769PX E 1183PX*/
+
+/*INICIO MEDIA QUERIES SEÇÃO NÚMEROS DISPOSITIVOS ENTRE 769PX E 925PX*/
+@media (min-width: 769px) and (max-width: 925px) {
+    .numeros h3 {
+        font-size: 28px;
+    }
+
+    .numeros .destaque-numeros {
+        font-size: 38px;
+    }
+
+    @media (min-width: 769px) and (max-width: 915px) {
+        .tabela {
+            flex-direction: column;
+        }
+    }
+
+    /*FIM SEÇÃO NÚMEROS*/
+}
+/*FIM MEDIA QUERIES SEÇÃO NÚMEROS DISPOSITIVOS ENTRE 769PX E 925PX*/
+
+/*INICIO MEDIA QUERIES SEÇÃO CONTATO DISPOSITIVOS ENTRE 769PX E 1154PX*/
+@media (min-width: 769px) and (max-width: 1154px) {
+    /*INICIO SEÇÃO CONTATO*/
+    #contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        border-top: 4px solid #18143c;
+    }
+
+    .contato {
+        text-align: center;
+    }
+
+    #contato h2 {
+        margin: 20px auto;
+    }
+
+    .contato nav {
+        background-color: #9c3cfc;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 20%;
+        margin: 10px auto;
+    }
+
+    .contato a {
+        width: 20%;
+    }
+
+    #contato button {
+        width: 40%;
+    }
+
+    /*FIM SEÇÃO CONTATO*/
+}
+/*FIM MEDIA QUERIES SEÇÃO CONTATO DISPOSITIVOS ENTRE 769PX E 1154PX*/

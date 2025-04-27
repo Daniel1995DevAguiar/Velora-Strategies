@@ -1,0 +1,192 @@
+/*INICIO MEDIA QUERIES DISPOSITIVOS MOBILE ENTRE 320PX E 425PX*/
+@media (min-width: 320px) and (max-width: 425px) {
+
+    /*INICIO ESTILOS GLOBAIS*/
+    p,
+    a {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    /*FIM ESTILOS GLOBAIS*/
+
+    /*INICIO SEÇÃO TOPO*/
+    header {
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .link-menu {
+        text-align: center;
+    }
+
+    /*FIM SEÇÃO TOPO*/
+
+    /*INICIO SEÇÃO BANNER*/
+    .banner {
+        height: 900px;
+    }
+
+    .banner h1 {
+        font-size: 38px;
+    }
+
+    .banner article {
+        justify-content: space-around;
+        height: 800px;
+    }
+
+    /*FIM SEÇÃO BANNER*/
+
+    /*INICIO SEÇÃO SERVIÇOS*/
+    #servicos section {
+        flex-direction: column;
+    }
+
+    /*FIM SEÇÃO SERVIÇOS*/
+
+    /*INICIO SEÇÃO NÚMEROS*/
+    .numeros h3 {
+        font-size: 24px;
+    }
+
+    .numeros .destaque-numeros {
+        font-size: 34px;
+    }
+
+    .tabela {
+        flex-direction: column;
+    }
+
+    /*FIM SEÇÃO NÚMEROS*/
+
+    /*INICIO SEÇÃO SOBRE*/
+    #sobre {
+        display: flex;
+        flex-direction: column;
+        height: 700px;
+    }
+
+    #sobre h2 {
+        margin: 20px auto;
+    }
+
+    #sobre .conteudo-sobre {
+        width: 100%;
+    }
+
+    #sobre .imagem-fundo-sobre {
+        width: 100%;
+        background-image: url("./imagens/imagem-fundo-sobre-mobile.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        height: 100%;
+    }
+
+    .conteudo-sobre {
+        text-align: center;
+    }
+
+    /*FIM SEÇÃO SOBRE*/
+
+    /*INICIO SEÇÃO DEPOIMENTOS*/
+
+    #depoimentos {
+        height: auto;
+    }
+
+    #depoimentos h2 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    #depoimentos article {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+
+    #depoimentos section {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    /*FIM SEÇÃO DEPOIMENTOS*/
+
+    /*INICIO SEÇÃO CLIENTES SATISFEITOS*/
+    #clientes {
+        height: 100%;
+        margin: 30px auto;
+    }
+
+    #clientes img {
+        width: 90%;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    #clientes figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    /*FIM SEÇÃO CLIENTES SATISFEITOS*/
+
+    /*INICIO SEÇÃO CONTATO*/
+    #contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        border-top: 3px solid #18143c;
+    }
+
+    .contato {
+        text-align: center;
+    }
+
+    #contato h2 {
+        margin: 20px auto;
+    }
+
+    .contato nav {
+        background-color: #9c3cfc;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 20%;
+    }
+
+    .contato a {
+        width: 20%;
+    }
+
+    #contato article {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #contato button {
+        width: 80%;
+    }
+
+    /*FIM SEÇÃO CONTATO*/
+}
+
+/*FIM MEDIA QUERIES DISPOSITIVOS MOBILE ENTRE 320PX E 425PX*/
