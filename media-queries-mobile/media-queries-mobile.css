@@ -4,7 +4,7 @@
     /*INICIO ESTILOS GLOBAIS*/
     p,
     a {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     h2 {
@@ -17,7 +17,7 @@
     /*INICIO SEÇÃO TOPO*/
     header {
         flex-direction: column;
-        height: 200px;
+        height: 250px;
     }
 
     .link-menu {
@@ -28,16 +28,24 @@
 
     /*INICIO SEÇÃO BANNER*/
     .banner {
-        height: 900px;
+        height: 1100px;
     }
 
     .banner h1 {
         font-size: 38px;
     }
 
+    .banner p {
+        padding: 0 20px;
+        line-height: 38px;
+    }
+
     .banner article {
-        justify-content: space-around;
-        height: 800px;
+        justify-content: space-evenly;
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
     }
 
     /*FIM SEÇÃO BANNER*/
@@ -68,7 +76,7 @@
     #sobre {
         display: flex;
         flex-direction: column;
-        height: 700px;
+        height: auto;
     }
 
     #sobre h2 {
