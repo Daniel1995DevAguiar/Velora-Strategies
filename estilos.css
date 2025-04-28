@@ -16,12 +16,20 @@ a {
 
 p,
 a {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h2 {
     font-size: 22px;
     margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+strong {
+    font-size: 19px;
 }
 
 header,
@@ -100,7 +108,7 @@ header .link-menu a:hover {
 
 .banner article {
     width: 50%;
-    height: 500px;
+    height: 100%;
     margin-left: 80px;
     display: flex;
     flex-direction: column;

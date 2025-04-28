@@ -2,10 +2,17 @@
 @media (min-width: 426px) and (max-width: 768px) {
 
     /*INICIO ESTILOS GLOBAIS*/
+    h2, p,
+    a, button, label, footer {
+        font-size: 20px;
+    }
 
     h2 {
-        font-size: 20px;
         margin-bottom: 20px;
+    }
+
+    .banner p, #servicos p, #sobre p, #depoimentos p, #contato p {
+        line-height: 38px;
     }
 
     /*FIM ESTILOS GLOBAIS*/
@@ -24,7 +31,7 @@
 
     /*INICIO SEÇÃO BANNER*/
     .banner {
-        height: 900px;
+        height: 1100px;
     }
 
     .banner h1 {
@@ -32,8 +39,11 @@
     }
 
     .banner article {
-        justify-content: space-around;
-        height: 800px;
+        justify-content: space-evenly;
+        height: 100%;
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
     }
 
     /*FIM SEÇÃO BANNER*/
@@ -63,8 +73,7 @@
     /*INICIO SEÇÃO SOBRE*/
     #sobre {
         display: flex;
-        flex-direction: column;
-        height: 1000px;
+        height: auto;
     }
 
     #sobre h2 {
@@ -76,12 +85,7 @@
     }
 
     #sobre .imagem-fundo-sobre {
-        width: 100%;
-        background-image: url("./imagens/imagem-fundo-sobre-mobile.png");
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: cover;
-        height: 100%;
+        display: none;
     }
 
     .conteudo-sobre {
@@ -127,8 +131,8 @@
     }
 
     #clientes img {
-        width: 90%;
-        height: 300px;
+        width: 50%;
+        height: 200px;
         margin-bottom: 10px;
     }
 
